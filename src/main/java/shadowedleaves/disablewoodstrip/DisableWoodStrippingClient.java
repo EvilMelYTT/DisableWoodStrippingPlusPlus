@@ -13,7 +13,7 @@ public class DisableWoodStrippingClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         UseBlockCallback.EVENT.register((player, world, hand, hitResult) -> {
-            if (world.isClient) {
+            if (world.isClient()) {
                 ItemStack itemStack = player.getStackInHand(hand);
                 if (itemStack.getItem() instanceof AxeItem) {
                     BlockPos pos = hitResult.getBlockPos();

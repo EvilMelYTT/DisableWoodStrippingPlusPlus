@@ -11,6 +11,6 @@ public class DisableWoodStripping implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing Disable Wood Stripping Mod!");
+		LOGGER.info("Initializing Disable Wood Stripping++!");
 	}
 }
