@@ -1,14 +1,31 @@
 # Disable Wood Stripping
 
+> [!IMPORTANT]
+> ## AI Usage Disclosure
+>
+> This fork has been upscaled/ported with AI assistance from its original version. Specific methods used:
+>
+> - **1.21.11** — Migrated using [mcmodding-mcp](https://github.com/OGMatrix/mcmodding-mcp) and cross referencing whatever errors compiled
+> - **26.x** — Migrated using `./gradlew migrateMappings`
+> - **Both versions** — Gaps were filled in using **Gemini 3.5 Flash**
+>
+> Porting done with direct consent from ShadowedLeaves/MysticIvy
+
+---
+
 This mod completely disables wood stripping! This will stop you from accidentally stripping logs.
 
 ---
 
 ### Supported Versions
-
+- 26.x
+- 1.21.11
+- 1.21.2
+- 1.21.1
+- 1.21
 - 1.20.4
 
-**Support for this project has been discontinued.**
+**Support for this project will be reinstated for as long as I remember this exists**
 
 ---
 
@@ -24,7 +41,10 @@ Disables wood from being stripped with an axe.
 
 Discord: shadowedleaves_
 
+Skidders Discord:EvilMel
+
 ~~Feel free to message me to ask a question or suggest a new feature!~~
+**dude just fork the project and do it ethically**
 
 ---
 
@@ -34,11 +54,13 @@ Supported Languages:
 
 - English
 
-Github Repository: [Source Code](https://github.com/Fethercat/DisableWoodStripping)
+Original Github Repository: [Source Code](https://github.com/MysticIvy/DisableWoodStripping)
 
-Report Issues: [Issues](https://github.com/Fethercat/DisableWoodStripping/issues)
+Github Fork Repository: [Source Code](https://github.com/EvilMelYTT/DisableWoodStrippingPlusPlus)
 
-**Disable Wood Stripping** Wiki: [Wiki](https://github.com/Fethercat/DisableWoodStripping/wiki)
+Report Issues: [Issues](https://github.com/EvilMelYTT/DisableWoodStrippingPlusPlus/issues)
+
+**Original Disable Wood Stripping** Wiki: [Wiki](https://github.com/MysticIvy/DisableWoodStripping/wiki)
 
 ---
 
