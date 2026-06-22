@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "disablewoodstrip",
 	"version": "${version}",
-	"name": "Disable Wood Stripping",
+	"name": "Disable Wood Stripping++",
 	"description": "A mod that disables wood from being stripped!",
 	"authors": [
 		"ShadowedLeaves"
@@ -25,9 +25,9 @@
 		"disablewoodstrip.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
+		"fabricloader": ">=0.18.2",
+		"minecraft": "^26.1",
+		"java": ">=25",
 		"fabric-api": "*"
 	},
 	"suggests": {

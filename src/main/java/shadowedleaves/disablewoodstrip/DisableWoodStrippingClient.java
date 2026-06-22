@@ -2,28 +2,28 @@ package shadowedleaves.disablewoodstrip;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.core.BlockPos;
 
 public class DisableWoodStrippingClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         UseBlockCallback.EVENT.register((player, world, hand, hitResult) -> {
-            if (world.isClient) {
-                ItemStack itemStack = player.getStackInHand(hand);
+            if (world.isClientSide()) {
+                ItemStack itemStack = player.getItemInHand(hand);
                 if (itemStack.getItem() instanceof AxeItem) {
                     BlockPos pos = hitResult.getBlockPos();
                     Block block = world.getBlockState(pos).getBlock();
                     if (isStrippableWood(block)) {
-                        return ActionResult.FAIL;
+                        return InteractionResult.FAIL;
                     }
                 }
             }
-            return ActionResult.PASS;
+            return InteractionResult.PASS;
         });
     }
 
