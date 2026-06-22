@@ -21,9 +21,6 @@
 			"shadowedleaves.disablewoodstrip.DisableWoodStrippingClient"
 		]
 	},
-	"mixins": [
-		"disablewoodstrip.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.18.2",
 		"minecraft": "^26.1",

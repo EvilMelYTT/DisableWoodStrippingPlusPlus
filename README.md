@@ -7,7 +7,7 @@
 >
 > - **1.21.11** — Migrated using [mcmodding-mcp](https://github.com/OGMatrix/mcmodding-mcp) and cross referencing whatever errors compiled
 > - **26.x** — Migrated using `./gradlew migrateMappings`
-> - **Both versions** — Gaps were filled in using **Gemini 3.5 Flash**
+> - **Both versions** — Gaps were filled in using **Gemini 3.5 Flash** (including fixing a startup crash with C2ME/Mixins)
 >
 > Porting done with direct consent from ShadowedLeaves/MysticIvy
 
